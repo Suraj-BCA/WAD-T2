@@ -1,11 +1,6 @@
 *{
     font-family: Satoshi, sans-serif;
-    scroll-behavior: smooth;
-
 }
-html {
-    scroll-behavior: smooth;
-  }
 .logo{
     width: 10rem;
     height: auto;
