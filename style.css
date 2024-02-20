@@ -1,3 +1,11 @@
+*{
+    font-family: Satoshi, sans-serif;
+    scroll-behavior: smooth;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
 .logo{
     width: 10rem;
     height: auto;
@@ -20,18 +28,28 @@
     font-size: 1.1rem;
 }
 
+.border-bottom{
+    background-color: #fff;
+}
+
 .top{
+    position:static;
     width: 100%;
     height: 79vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10rem;
+}
+.space-100{
+    height: 90px;
 }
 
 .image{
     width: 40rem;
     height: 30rem;
     border-radius: 10px ;
+    object-fit: cover;
 }
 
 
@@ -45,7 +63,7 @@
 
 .part1 h1{
     font-size: 4rem;
-    font-family: Arial  ;
+    /* font-family: Arial  ; */
     font-weight: 600;
 }
 .btn1{
@@ -90,29 +108,24 @@
 .rankingitem{
     margin-left: 28.5rem;
 }
-
 .company1{
-   
     flex-wrap: wrap;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
 .company{
     width: 7.5rem;
     height: auto;
 }
-
 .h1{
     text-align: center;
     padding: 4rem 0;
-
+    font-weight: 700;
 }
 
 .alum{
     display: flex;
-    /* align-items: center; */
     justify-content: space-evenly;
 }
 
@@ -121,7 +134,6 @@
     height: 200px;
     border-radius: 50%;
     margin-left: 6rem;
-    /* object-fit: cover; */
 }
 .footpara{
     margin-top: 5rem;
@@ -130,13 +142,11 @@
     background-color:  rgb(130, 81, 176);
     color: #fff;
     display: flex
-    
 }
 
 .footpara h2{
     margin-top: 4rem;
     padding-left: 5rem;
-
 }
 
 .footpara p{
@@ -175,7 +185,6 @@
 .socialtag{
     text-align: center;
     font-weight: bold;
-
 }
 .socialbox{
     background-color: rgb(249, 245, 245);
@@ -198,12 +207,37 @@
     padding-left: 1rem;
 }
 
-.address{
-    width: auto;
+.address1{
     height: 20vh;
-    padding-left: 20rem;
     padding: 3rem 3rem 9rem 20rem;
     background-color:  rgb(130, 81, 176);
     color: #fff;
+    display: flex;
+}
+.footpart1{
+    margin-right: 6rem;
+}
+.bot img{
+    position: fixed;
+    bottom: 0;
+    right: 3rem;
+    width: 5rem;
+}
+.gallaryItem{
+    object-fit: cover;
+    width: 19rem;
+    height: auto;
+    border-radius: 20px;
+}
+.d-flex{
+    flex-wrap: wrap;
+    padding-left: 9rem;
+}
+.footlogo1{
+    padding-top: 1.5rem;
+    width: 5rem;
+    height: auto;
+    border-radius: 25px;
+    
 }
 
